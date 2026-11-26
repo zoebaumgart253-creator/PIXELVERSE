@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tickets – PIXELVERSE Gaming Art Ausstellung</title>
+  <meta name="description" content="Entdecke die Ticketkategorien für PIXELVERSE und nutze das unverbindliche Demo-Formular für deine Vormerkung.">
+  <meta name="theme-color" content="#0A0F2C">
+  <link rel="icon" type="image/png" href="favicon/favicon.png">
+  <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+<a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="PIXELVERSE Startseite"><img src="icons/logo.svg" alt="PIXELVERSE" width="210" height="50"></a>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="hauptnavigation">Menü</button>
+  <nav id="hauptnavigation" class="main-nav" aria-label="Hauptnavigation"><a href="index.html" >Start</a><a href="programm.html" >Programm</a><a href="story.html" >Story</a><a href="tickets.html" aria-current="page">Tickets</a><a href="infos.html" >Infos</a></nav>
+</header>
+<main id="inhalt">
+<section class="page-hero section-wrap"><p class="eyebrow">04 / DEIN ZUGANG</p><h1>GET YOUR<br><span class="text-lime">PASS.</span></h1><p class="hero-lead">Sichere dir deinen Platz bei der Eröffnung und werde Teil der ersten PIXELVERSE-Nacht.</p><img class="wide-art ticket-art" src="images/gallery-10.jpg" alt="Blauer Gaming-Controller als 3D-Objekt" width="1000" height="700"></section>
+<section class="section-wrap"><div class="section-heading"><div><p class="eyebrow">TICKET LEVELS</p><h2>Wähle deinen Zugang.</h2></div><p>Alle Tickets gelten für den gesamten Veranstaltungsabend am 17. April 2027 von 18 bis 23 Uhr.</p></div>
+<div class="price-grid"><article class="price-card"><p class="eyebrow">LEVEL 01</p><h3>Player</h3><p class="price">8 €</p><p>Eintritt zur Ausstellung und zu allen offenen Erlebnisbereichen.</p><ul><li>Ausstellung inklusive</li><li>Live-Demos und Talks</li><li>Freie Zeiteinteilung</li></ul></article><article class="price-card featured"><span class="popular">MOST PLAYED</span><p class="eyebrow">LEVEL 02</p><h3>Creator</h3><p class="price">14 €</p><p>Für alle, die tiefer in die kreative Welt eintauchen möchten.</p><ul><li>Alle Player-Vorteile</li><li>Reservierter VR-Zeitslot</li><li>Digitales Artbook als PDF</li></ul></article><article class="price-card"><p class="eyebrow">LEVEL 03</p><h3>Squad (4 Personen)</h3><p class="price">28 €</p><p>Gemeinsam entdecken und dabei sparen.</p><ul><li>Vier Eintrittskarten</li><li>Alle Ausstellungsbereiche</li><li>Gemeinsamer Einlass</li></ul></article></div>
+<p class="small-note">Hinweis: PIXELVERSE ist ein fiktives Studienprojekt. Das Formular dient der Gestaltung und simuliert eine unverbindliche Vormerkung. Es findet kein echter Ticketverkauf statt.</p></section>
+<section class="section-wrap form-section"><div><p class="eyebrow">SAVE YOUR SPOT</p><h2>Dein Ticket wartet.</h2><p>Fülle das Formular aus, um eine beispielhafte Ticketvormerkung durchzuspielen. Nach dem Absenden erscheint eine Bestätigung direkt auf dieser Seite. Deine Angaben werden nicht übertragen oder gespeichert.</p><img class="form-sticker" src="images/gallery-03.png" alt="Freundlicher 3D-Roboter als PIXELVERSE-Maskottchen" width="1000" height="700" loading="lazy"></div>
+<form id="ticket-form" class="ticket-form">
+<label for="fullname">Dein Name *</label><input id="fullname" name="fullname" autocomplete="name" required>
+<label for="email">E-Mail-Adresse *</label><input id="email" name="email" type="email" autocomplete="email" required>
+<label for="ticket-type">Ticket auswählen *</label><select id="ticket-type" name="ticket-type" required><option value="">Bitte auswählen</option><option>Player – 8 €</option><option>Creator – 14 €</option><option>Squad (4 Personen) – 28 €</option></select>
+<label for="quantity">Anzahl der Tickets *</label><input id="quantity" name="quantity" type="number" min="1" max="4" value="1" required>
+<label for="message">Nachricht (optional)</label><textarea id="message" name="message" rows="4" placeholder="Hast du eine Frage oder einen Wunsch?"></textarea>
+<label class="check-label"><input type="checkbox" name="privacy" required> Ich habe verstanden, dass dies eine unverbindliche Formular-Demo ist. *</label>
+<button class="button button-lime" type="submit">Vormerkung simulieren ↗</button><p id="form-message" class="form-message" role="status" aria-live="polite"></p>
+</form></section>
+</main>
+<footer class="site-footer">
+  <a class="footer-brand" href="index.html">PIXELVERSE<span> / THE FUTURE OF GAMING ART</span></a>
+  <p>Eine Ausstellung über digitale Welten, kreative Ideen und die Kunst des Spielens.</p>
+  <div class="footer-bottom"><span>© 2027 PIXELVERSE · Studienprojekt</span><a href="infos.html#impressum">Impressum</a></div>
+</footer>
+<script src="js/script.js" defer></script>
+</body>
+</html>
